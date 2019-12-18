@@ -84,7 +84,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClass\BaseClass.cs" />
-    <Compile Include="BaseClass\PageBase.cs" />
     <Compile Include="ComponentHelper\BrowserHelper.cs" />
     <Compile Include="ComponentHelper\ButtonHelper.cs" />
     <Compile Include="ComponentHelper\ComboboxHelper.cs" />
@@ -103,47 +102,13 @@
     <Compile Include="CustomException\NoSuchKeywordFoundException.cs" />
     <Compile Include="CustomException\NoSuitableDriverFound.cs" />
     <Compile Include="CW_TestScripts\CHS.cs" />
-    <Compile Include="DataDriven\Scripts\Login.cs" />
-    <Compile Include="DataDriven\Scripts\TestLogin_DDFw.cs" />
-    <Compile Include="DataDriven\Scripts\TestLogin_excel.cs" />
     <Compile Include="ComponentHelper\ExcelReaderHelper.cs" />
-    <Compile Include="ExcelReader\SearchUsingExcelReader.cs" />
-    <Compile Include="ExcelReader\Search.cs" />
     <Compile Include="Interfaces\IConfig.cs" />
     <Compile Include="KeywordDriven\DataEngine.cs" />
     <Compile Include="KeywordDriven\ExcelReaderHelper_KD.cs" />
-    <Compile Include="L_TS\Class1.cs" />
-    <Compile Include="PageObject\HomePage - usingPageFactory - Copy.cs" />
-    <Compile Include="PageObject\HomePageusingFW.cs" />
-    <Compile Include="PageObject\HomePage.cs" />
-    <Compile Include="PageObject\LoginusingFW.cs" />
-    <Compile Include="PageObject\MapPageUsingPafeFactory.cs" />
-    <Compile Include="PageObject\MapPage.cs" />
     <Compile Include="Settings\AppConfigKeys.cs" />
     <Compile Include="Settings\ObjectRepository.cs" />
-    <Compile Include="L_TS\AutoSuggest\TestAutoSuggest.cs" />
-    <Compile Include="L_TS\BrowserActions\TestBrowserAction.cs" />
-    <Compile Include="L_TS\Button\TestButton.cs" />
-    <Compile Include="L_TS\DefaultWait\DefaultWait.cs" />
-    <Compile Include="L_TS\Dropdown\TestDropdown.cs" />
-    <Compile Include="L_TS\Final.cs" />
-    <Compile Include="L_TS\FindElements\HandleElements.cs" />
-    <Compile Include="L_TS\Hyperlink\TestHyperLink.cs" />
     <Compile Include="CW_TestScripts\KD\ClinicianLanding.cs" />
-    <Compile Include="L_TS\KyboardAndMouseAction\KeybrdAndMoueAction.cs" />
-    <Compile Include="L_TS\MultipleBrowser\TestMultipleBrowser.cs" />
-    <Compile Include="L_TS\PageNavigation\TestPageNavigation.cs" />
-    <Compile Include="L_TS\Checkbox\TestCheckbox.cs" />
-    <Compile Include="L_TS\PageObject\TestPO_FW.cs" />
-    <Compile Include="L_TS\PageObject\Test_POusingPageFactory.cs" />
-    <Compile Include="L_TS\PageObject\Test_PO.cs" />
-    <Compile Include="L_TS\Popup\Popups.cs" />
-    <Compile Include="L_TS\RadioButton\TestRadioButton.cs" />
-    <Compile Include="L_TS\Screenshots\TakeScreenshots.cs" />
-    <Compile Include="L_TS\TextBox\TestTextBox.cs" />
-    <Compile Include="L_TS\WebdriverWait\DynamicWait.cs" />
-    <Compile Include="L_TS\WebdriverWait\TestWait.cs" />
-    <Compile Include="L_TS\WebElements\TestWebelements.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -151,9 +116,8 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="packages\PhantomJS.2.1.1\tools\phantomjs\phantomjs.exe" />
+    <Folder Include="packages\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
